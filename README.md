@@ -1,4 +1,5 @@
 Cookie Management System
+
 This project demonstrates how to manage cookies using PHP across multiple web pages. It allows users to select a theme and philosopher, store them as cookies, read them back, and remove them as needed.
 
 Table of Contents
@@ -58,17 +59,18 @@ project-root/
 
 Usage
 Creating Cookies:
-
 Visit ch15-proj1.php, select a theme and philosopher, and click "Create Cookies".
 Cookies will be stored and redirected back to ch15-proj1.php.
-Reading Cookies:
 
+Reading Cookies:
 Visit ch15-proj1.php to see the stored theme and philosopher cookies.
 If cookies are not available, a message will be displayed.
-Removing Cookies:
 
+Removing Cookies:
 Visit other-page.php and click "Remove Cookies" to delete stored cookies.
 You will be redirected to other-page.php to confirm that cookies have been removed.
+
+
 License
 This project is licensed under the MIT License.
 
