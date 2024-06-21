@@ -2,11 +2,13 @@ Cookie Management System
 This project demonstrates how to manage cookies using PHP across multiple web pages. It allows users to select a theme and philosopher, store them as cookies, read them back, and remove them as needed.
 
 Table of Contents
-* Features
-* Setup Instructions
-* File Structure
-* Usage
-* License
+•	Features
+•	Setup Instructions
+•	File Structure
+•	Usage
+•	License
+
+
 Features
 Creating Cookies:
 	Allows users to select a theme and philosopher, storing them as cookies.
@@ -35,24 +37,24 @@ Database Setup (if applicable):
 	No database setup required for this project.
 
 Run the Application:
-	Place the project files in your web server�s document root.
+	Place the project files in your web server’s document root.
 Access the application via your web browser (e.g., http://localhost/ch15-proj1.php).
 File Structure
 bash
 Copy code
 project-root/
-?
-??? ch15-proj1.php           # Main page to create and display cookies
-??? make-cookies.php         # Processes form submission to create cookies
-??? remove-cookie.php        # Removes cookies and redirects back
-??? other-page.php           # Displays cookie values and offers cookie removal link
-?
-??? css/
-?   ??? styles.css           # Custom CSS styles
-?
-??? includes/
-    ??? header.inc.php       # Header include for common header content
-    ??? left-nav.inc.php     # Left navigation include for navigation menu
+│
+├── ch15-proj1.php           # Main page to create and display cookies
+├── make-cookies.php         # Processes form submission to create cookies
+├── remove-cookie.php        # Removes cookies and redirects back
+├── other-page.php           # Displays cookie values and offers cookie removal link
+│
+├── css/
+│   └── styles.css           # Custom CSS styles
+│
+└── includes/
+    ├── header.inc.php       # Header include for common header content
+    └── left-nav.inc.php     # Left navigation include for navigation menu
 
 Usage
 Creating Cookies:
